@@ -1,0 +1,107 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  background-color: #61dafb;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* My styling code */
+
+.memberList{
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+.member_list {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 200px;
+  margin: 1%;
+  justify-content: space-evenly;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(76, 68, 68);
+  color: white;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 25%;
+  margin: auto;
+  border: solid black 2px;
+  border-radius: 10px;
+  background-color: rgb(76, 68, 68);
+}
+
+.formAndteam {
+  display: flex;
+  flex-direction: column;
+}
+
+#member_name {
+  border: solid 1px black;
+  margin: 5% 10%;
+
+}
+
+#member_email {
+  border: solid 1px black;
+  margin: 5% 10%;
+}
+
+#member_role {
+  border: solid 1px black;
+  margin: 5% 10%;
+}
+
+button {
+  height: 50px;
+  width: 40%;
+  margin: 10% 30%;
+  border-radius: 10px;
+  border-color: 1px solid red;
+  background-color: rgb(76, 68, 68);
+  color: white;
+}
+
+label {
+  font-size: 1.5rem;
+  color: white;
+}
