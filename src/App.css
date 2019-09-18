@@ -43,6 +43,7 @@
   width: 100%;
   flex-wrap: wrap;
   margin-left: 1%;
+  margin-top: 1%;
 }
 
 .member_list {
@@ -53,6 +54,9 @@
   margin: 1%;
   justify-content: space-evenly;
   border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(76, 68, 68);
+  color: white;
 }
 
 form{
@@ -62,6 +66,8 @@ form{
   width: 25%;
   margin: auto;
   border: solid black 2px;
+  border-radius: 10px;
+  background-color: rgb(76, 68, 68);
 }
 
 .formAndteam {
@@ -70,18 +76,18 @@ form{
 }
 
 #member_name {
-  border: solid 1px red;
+  border: solid 1px black;
   margin: 5% 10%;
 
 }
 
 #member_email {
-  border: solid 1px red;
+  border: solid 1px black;
   margin: 5% 10%;
 }
 
 #member_role {
-  border: solid 1px red;
+  border: solid 1px black;
   margin: 5% 10%;
 }
 
@@ -92,5 +98,10 @@ button {
   border-radius: 10px;
   border-color: 1px solid red;
   background-color: rgb(76, 68, 68);
+  color: white;
+}
+
+label {
+  font-size: 1.5rem;
   color: white;
 }
