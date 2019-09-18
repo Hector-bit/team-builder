@@ -12,7 +12,25 @@ function App() {
         name: "John Hank",
         email: "randomemail@gmail.com",
         role: "web dev"
-      }
+      },
+      {
+        id: 2,
+        name: "Smith John",
+        email: "anotheremail@gmail.com",
+        role: "Data Scientist"
+      },
+      {
+        id: 3,
+        name: "Gary Holbert",
+        email: "coolemail@gmail.com",
+        role: "UI/Ux"
+      },
+      {
+        id: 4,
+        name: "Smithy Johnny",
+        email: "superkool@gmail.com",
+        role: "Data Scientist"
+      },
     ]);
     const addNewMember = member => {
       const newMember = {
@@ -26,23 +44,12 @@ function App() {
     return (
     <div className="App">
       <h1>Team List!!!</h1>
-      <Form addNewMember={addNewMember}></Form>
-      <Team members={members}></Team>
-
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <div className="formAndteam">
+        <Form addNewMember={addNewMember}></Form>
+        <div className="memberList">
+        <Team members={members}></Team>
+        </div>
+      </div>
     </div>
   );
 }

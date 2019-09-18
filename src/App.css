@@ -1,7 +1,10 @@
 .App {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+  align-content: center;
+  background-color: #61dafb;
 }
-
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +33,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* My styling code */
+
+.memberList{
+  display: flex;
+  flex-basis: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-left: 1%;
+}
+
+.member_list {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 200px;
+  margin: 1%;
+  justify-content: space-evenly;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 25%;
+  margin: auto;
+  border: solid black 2px;
+}
+
+.formAndteam {
+  display: flex;
+  flex-direction: column;
+}
+
+#member_name {
+  border: solid 1px red;
+  margin: 5% 10%;
+
+}
+
+#member_email {
+  border: solid 1px red;
+  margin: 5% 10%;
+}
+
+#member_role {
+  border: solid 1px red;
+  margin: 5% 10%;
+}
+
+button {
+  height: 50px;
+  width: 40%;
+  margin: 10% 30%;
+  border-radius: 10px;
+  border-color: 1px solid red;
+  background-color: rgb(76, 68, 68);
+  color: white;
 }
